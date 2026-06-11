@@ -898,6 +898,17 @@ const customConfig = defineConfig({
           },
         },
       },
+      menu: {
+        slots: ["trigger", "content", "item", "itemGroup", "separator"],
+        base: {
+          trigger: {
+            cursor: "pointer",
+          },
+          item: {
+            cursor: "pointer",
+          },
+        },
+      },
     },
   },
 });
